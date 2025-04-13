@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
