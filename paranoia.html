@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://parhanoid.github.io/web/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>paranoia</title>
+  <link href="./paranoia_files/css2" rel="stylesheet">
+  <link rel="icon" href="https://media.discordapp.net/attachments/1359955802806419778/1360073220799336488/output-onlinepngtools.png" type="image/x-icon">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Fredoka', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: #000;
+      flex-direction: column;
+    }
+
+    .content {
+      z-index: 10;
+      color: white;
+      text-shadow: 0 0 8px white, 0 0 16px white;
+      max-width: 80%;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content h1 {
+      font-size: 6vw;
+      margin: 0;
+      letter-spacing: 5px;
+      text-transform: lowercase;
+      font-weight: 600;
+      white-space: nowrap;
+      padding: 0 10px;
+      text-align: center;
+      text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
+    }
+
+    .content p {
+      margin-top: 20px;
+      font-size: 1.5em;
+    }
+
+    .typed-text {
+      display: inline;
+      border-right: 2px solid white;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .btn {
+      display: inline-block;
+      background: linear-gradient(to right, #4A90E2, #357ABD);
+      color: white;
+      padding: 15px 30px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 1.2em;
+      margin-top: 40px;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px #4A90E2, 0 0 30px #357ABD;
+      text-shadow: 0 0 5px white, 0 0 10px white;
+    }
+
+    .btn:hover {
+      background: linear-gradient(to right, #3A78C2, #255FAB);
+      box-shadow: 0 0 20px #3A78C2, 0 0 40px #255FAB;
+      transform: translateY(-2px);
+    }
+
+    .social-icons {
+      margin-top: 25px;
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 2.5em;
+      text-decoration: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+    }
+
+    .social-icons a.discord {
+      text-shadow: 0 0 10px #5865F2, 0 0 20px #5865F2;
+    }
+
+    .social-icons a.mail {
+      text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF;
+    }
+
+    .particles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .particle {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 16px rgba(255, 255, 255, 0.6);
+      animation: move 60s linear infinite;
+    }
+
+    @keyframes move {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(var(--x), var(--y)); }
+    }
+
+    .trail {
+      position: fixed;
+      pointer-events: none;
+      width: 8px;
+      height: 8px;
+      background-color: white;
+      border-radius: 50%;
+      box-shadow: 0 0 8px white;
+      z-index: 9999;
+      animation: fadeOut 0.7s forwards;
+    }
+
+    @keyframes fadeOut {
+      to {
+        opacity: 0;
+        transform: scale(2);
+      }
+    }
+  </style>
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+
+  <div class="content">
+    <h1>paranoia</h1>
+    <p>Best <span id="typed-text" class="typed-text">Roblox</span> utilities of 2025.</p>
+    <a href="https://parhanoid.github.io/web/Projects/" class="btn" target="_blank">Download</a>
+
+<!-- Replace the .social-icons section only -->
+<div class="social-icons">
+  <a href="https://discord.gg/pr3dxBMVMu" target="_blank" class="discord">
+    <img src="./paranoia_files/2111370.png" alt="Discord" style="width: 42px; height: 42px; filter: drop-shadow(0 0 10px #5865F2); vertical-align: middle;">
+  </a>
+  <a href="mailto:ext.csharp@gmail.com" class="mail" style="font-size: 2.5em; vertical-align: middle;">✉️</a>
+</div>
+  </div>
+
+  <div class="particles"><div class="particle" style="left: 137.704px; top: 451.427px; --x: 229.09996973363533px; --y: -159.41159923630698px;"></div><div class="particle" style="left: 787.359px; top: 503.115px; --x: 57.120498161258304px; --y: 154.10038027057826px;"></div><div class="particle" style="left: 909.709px; top: 546.609px; --x: -498.55625458298067px; --y: 264.65646272244305px;"></div><div class="particle" style="left: 1408.17px; top: 105.724px; --x: 477.8231419347365px; --y: -218.20119844230555px;"></div><div class="particle" style="left: 580.435px; top: 585.816px; --x: 64.3036771775114px; --y: 173.71948401145153px;"></div><div class="particle" style="left: 1120.5px; top: 729.6px; --x: 296.7152262100414px; --y: 281.99729447681057px;"></div><div class="particle" style="left: 947.74px; top: 735.566px; --x: -480.55382755520884px; --y: -381.94729726705077px;"></div><div class="particle" style="left: 685.826px; top: 557.056px; --x: -128.2455158899829px; --y: -396.2248758079163px;"></div><div class="particle" style="left: 957.384px; top: 227.783px; --x: 199.5276318745931px; --y: -306.0375750640401px;"></div><div class="particle" style="left: 1288.27px; top: 271.559px; --x: -180.1462342011817px; --y: 352.8414723324893px;"></div><div class="particle" style="left: 965.003px; top: 97.0938px; --x: -15.517116387389063px; --y: -148.48503493814303px;"></div><div class="particle" style="left: 1466.81px; top: 251.146px; --x: -176.59843315850975px; --y: -0.21619420278962131px;"></div><div class="particle" style="left: 17.9907px; top: 646.689px; --x: 66.79931108567594px; --y: 128.20143860979383px;"></div><div class="particle" style="left: 1257.11px; top: 595.805px; --x: -47.039610378792005px; --y: -128.84834978035943px;"></div><div class="particle" style="left: 925.953px; top: 655.447px; --x: 337.1403111711937px; --y: -449.13429477152533px;"></div><div class="particle" style="left: 770.491px; top: 603.926px; --x: 370.9874171783527px; --y: -369.90721549978554px;"></div><div class="particle" style="left: 982.786px; top: 729.26px; --x: 154.62088524782035px; --y: -313.34432492167053px;"></div><div class="particle" style="left: 1426.07px; top: 621.265px; --x: 219.72036124142846px; --y: -439.4957938656561px;"></div><div class="particle" style="left: 1074.54px; top: 201.284px; --x: 362.0788169159079px; --y: 253.73591919334237px;"></div><div class="particle" style="left: 1224.18px; top: 449.472px; --x: -249.59504694381286px; --y: 363.5178688317295px;"></div><div class="particle" style="left: 867.273px; top: 183.964px; --x: 152.542961834748px; --y: -5.7246795123993px;"></div><div class="particle" style="left: 757.635px; top: 632.942px; --x: -414.81063053148534px; --y: -37.96438828189008px;"></div><div class="particle" style="left: 752.236px; top: 242.019px; --x: 471.833556039307px; --y: -0.4560087274798619px;"></div><div class="particle" style="left: 1039.82px; top: 760.219px; --x: -292.6393322282037px; --y: 181.44158371883634px;"></div><div class="particle" style="left: 240.396px; top: 887.392px; --x: 367.4987662405862px; --y: 139.98670283327797px;"></div><div class="particle" style="left: 1550.93px; top: 722.777px; --x: -430.2056827461325px; --y: -67.93251730214855px;"></div><div class="particle" style="left: 351.428px; top: 37.3485px; --x: 123.96462330149505px; --y: 317.89461173463997px;"></div><div class="particle" style="left: 780.879px; top: 663.561px; --x: 368.8902921770825px; --y: 66.9694997122281px;"></div><div class="particle" style="left: 1192.03px; top: 487.608px; --x: -417.5877380195665px; --y: -29.993185095047004px;"></div><div class="particle" style="left: 746.534px; top: 29.6326px; --x: 102.76984046976456px; --y: -219.95725234246754px;"></div><div class="particle" style="left: 1124.6px; top: 898.465px; --x: -10.86638600156431px; --y: 484.1930170303506px;"></div><div class="particle" style="left: 621.439px; top: 722.609px; --x: -395.7730852776922px; --y: 66.71515569979003px;"></div><div class="particle" style="left: 1351.72px; top: 877.677px; --x: -198.97014492657837px; --y: 398.8391468787844px;"></div><div class="particle" style="left: 1533.03px; top: 285.155px; --x: 96.94792558103148px; --y: 468.46069644591057px;"></div><div class="particle" style="left: 1153.73px; top: 188.87px; --x: 36.02790834991065px; --y: -257.68929412969356px;"></div><div class="particle" style="left: 591.671px; top: 353.023px; --x: -67.72155428898685px; --y: -341.65381240122184px;"></div><div class="particle" style="left: 362.765px; top: 325.456px; --x: -435.64885979572597px; --y: -80.80671113450543px;"></div><div class="particle" style="left: 540.337px; top: 400.117px; --x: 18.89523542390492px; --y: 143.46972610475396px;"></div><div class="particle" style="left: 369.803px; top: 933.809px; --x: 459.1533237815679px; --y: -180.8647722705059px;"></div><div class="particle" style="left: 775.965px; top: 624.748px; --x: 252.61581925039246px; --y: 180.74998558884147px;"></div><div class="particle" style="left: 883.929px; top: 387.433px; --x: -376.93393715996024px; --y: -215.07928489736838px;"></div><div class="particle" style="left: 577.588px; top: 886.259px; --x: 390.8572596638995px; --y: 393.7476785815317px;"></div><div class="particle" style="left: 818.076px; top: 198.151px; --x: 434.93811509849724px; --y: 263.61371372702314px;"></div><div class="particle" style="left: 870.411px; top: 644.879px; --x: -197.36594939095963px; --y: -68.3092429750598px;"></div><div class="particle" style="left: 1300.2px; top: 371.701px; --x: 488.36210945106393px; --y: -200.86600546107135px;"></div><div class="particle" style="left: 1030.42px; top: 887.23px; --x: 139.2308368690265px; --y: -453.90471505690266px;"></div><div class="particle" style="left: 61.906px; top: 735.555px; --x: -153.0914795662377px; --y: -248.8180563243434px;"></div><div class="particle" style="left: 1191.81px; top: 156.428px; --x: -40.944943057626745px; --y: -353.9844199996682px;"></div><div class="particle" style="left: -0.463136px; top: 587.54px; --x: -110.65948058558162px; --y: 112.30103764954946px;"></div><div class="particle" style="left: 354.942px; top: 527.628px; --x: -110.93177546839495px; --y: 477.94497866878925px;"></div><div class="particle" style="left: 1584.49px; top: 515.411px; --x: -494.83806439802925px; --y: 263.4418352212193px;"></div><div class="particle" style="left: 412.735px; top: 544.92px; --x: 74.74677174526411px; --y: -18.910836751118822px;"></div><div class="particle" style="left: 1458.19px; top: 622.175px; --x: -415.4341996777775px; --y: -343.84172051786766px;"></div><div class="particle" style="left: 1536.49px; top: 920.552px; --x: 412.0528405831845px; --y: -253.6790057866387px;"></div><div class="particle" style="left: 991.5px; top: 149.5px; --x: 51.544694109089576px; --y: -110.19220628624704px;"></div><div class="particle" style="left: 1438.95px; top: 793.119px; --x: -109.84893594476452px; --y: 64.57592591596307px;"></div><div class="particle" style="left: 340.009px; top: 440.525px; --x: 352.51231222283843px; --y: -1.0997263579604066px;"></div><div class="particle" style="left: 341.138px; top: 642.443px; --x: 255.88862382460232px; --y: 48.91334550730275px;"></div><div class="particle" style="left: 796.131px; top: 765.09px; --x: -7.230256582667849px; --y: -266.81833846221406px;"></div><div class="particle" style="left: 384.195px; top: 538.518px; --x: 493.93430930505235px; --y: -35.64059437746736px;"></div><div class="particle" style="left: 212.442px; top: 335.796px; --x: -273.7139158583433px; --y: 120.43106471448684px;"></div><div class="particle" style="left: 634.491px; top: 439.171px; --x: 256.3866159594004px; --y: 84.70298466438476px;"></div><div class="particle" style="left: 975.535px; top: 725.803px; --x: 83.84165637708563px; --y: 81.03856549218725px;"></div><div class="particle" style="left: 30.3557px; top: 96.5319px; --x: 40.18683436107162px; --y: 198.1889232937244px;"></div><div class="particle" style="left: 224.673px; top: 847.069px; --x: -288.34355443259983px; --y: -230.42540884025618px;"></div><div class="particle" style="left: 223.652px; top: 432.204px; --x: 122.49682055099176px; --y: 492.20372170675233px;"></div><div class="particle" style="left: 659.513px; top: 209.232px; --x: -231.00219885230632px; --y: -58.0457438517914px;"></div><div class="particle" style="left: 916.564px; top: 805.538px; --x: 91.14084513569098px; --y: -165.51803583698677px;"></div><div class="particle" style="left: 1449.42px; top: 909.458px; --x: -270.1574404309102px; --y: -305.2642372345149px;"></div><div class="particle" style="left: 1190.51px; top: 673.559px; --x: 49.574316390113225px; --y: -294.75461940269577px;"></div><div class="particle" style="left: 406.923px; top: 886.006px; --x: -362.3853286786325px; --y: 269.3493431619798px;"></div><div class="particle" style="left: 299.672px; top: 778.405px; --x: -356.15040639738015px; --y: 166.70325435234633px;"></div><div class="particle" style="left: 1030.07px; top: 688.918px; --x: 292.67607302019695px; --y: 26.989815550519715px;"></div><div class="particle" style="left: 402.307px; top: 36.7012px; --x: 152.81843317468602px; --y: -289.3504374579108px;"></div><div class="particle" style="left: 1058.54px; top: 345.759px; --x: 240.08289586438104px; --y: 83.15890368252421px;"></div><div class="particle" style="left: 668.697px; top: 601.95px; --x: 15.366709793267264px; --y: -43.05680543356915px;"></div><div class="particle" style="left: 1320.28px; top: 676.818px; --x: 107.29169633549884px; --y: -330.9789883229446px;"></div><div class="particle" style="left: 1003.94px; top: 72.6575px; --x: -360.68861765179963px; --y: -56.39955231267879px;"></div><div class="particle" style="left: 271.99px; top: 565.604px; --x: -185.9190605186978px; --y: -404.3179973702813px;"></div><div class="particle" style="left: 756.801px; top: 709.485px; --x: -461.9369738737267px; --y: -130.71752578410934px;"></div><div class="particle" style="left: 1297.77px; top: 321.554px; --x: -398.19698075145624px; --y: 412.284571536347px;"></div><div class="particle" style="left: 120.429px; top: 485.158px; --x: -332.7066028841583px; --y: 205.44566034433421px;"></div><div class="particle" style="left: 593.253px; top: 451.345px; --x: 62.50042229381725px; --y: -148.08324711734832px;"></div><div class="particle" style="left: 509.142px; top: 933.521px; --x: -41.12531345818105px; --y: 78.63773052440703px;"></div><div class="particle" style="left: 153.454px; top: 20.0838px; --x: -191.2796071975187px; --y: 190.60170496225638px;"></div><div class="particle" style="left: 806.035px; top: 89.3115px; --x: -474.5533249223559px; --y: 42.33741300263527px;"></div><div class="particle" style="left: 1247.24px; top: 385.725px; --x: -97.03674608951273px; --y: 337.68759311529715px;"></div><div class="particle" style="left: 1213.76px; top: 623.031px; --x: -302.70989789100236px; --y: 138.32285500178344px;"></div><div class="particle" style="left: 1447.21px; top: 381.377px; --x: -359.1900267434409px; --y: 50.77514082542534px;"></div><div class="particle" style="left: 1526.56px; top: 871.982px; --x: -346.51145876096524px; --y: -143.73795891569975px;"></div><div class="particle" style="left: 519.613px; top: 685.44px; --x: 79.45102005239013px; --y: -414.04662030630936px;"></div><div class="particle" style="left: 1446.67px; top: 688.944px; --x: -141.9191315165842px; --y: 103.24638529271768px;"></div><div class="particle" style="left: 307.237px; top: 958.678px; --x: -169.9452873320466px; --y: -109.54740193960832px;"></div><div class="particle" style="left: 962.378px; top: 402.532px; --x: 472.078090310293px; --y: -30.801425506321145px;"></div><div class="particle" style="left: 656.088px; top: 461.916px; --x: 440.7942168054322px; --y: 46.792748408050144px;"></div><div class="particle" style="left: 768.451px; top: 888.278px; --x: -346.86354385176554px; --y: 43.83412119057195px;"></div><div class="particle" style="left: 382.395px; top: 59.9561px; --x: 470.0386313373417px; --y: 277.6880479153685px;"></div><div class="particle" style="left: 1071.95px; top: 335.41px; --x: 313.66064282186915px; --y: 150.15889789815452px;"></div><div class="particle" style="left: 239.632px; top: 72.3227px; --x: -151.63929094873117px; --y: -168.9206213564993px;"></div><div class="particle" style="left: 795.821px; top: 723.176px; --x: -166.20861541698616px; --y: -428.1032651446215px;"></div></div>
+
+  <script>
+    // Typing effect for subheading
+    const words = ["Discord", "Roblox", "Network"];
+    let currentWordIndex = 0;
+    let isDeleting = false;
+    let text = "";
+    const speed = 100;
+    const wait = 2000;
+    const typedText = document.getElementById("typed-text");
+
+    function type() {
+      const currentWord = words[currentWordIndex];
+      if (isDeleting) {
+        text = currentWord.substring(0, text.length - 1);
+      } else {
+        text = currentWord.substring(0, text.length + 1);
+      }
+
+      typedText.textContent = text;
+
+      let typingSpeed = speed;
+      if (isDeleting) typingSpeed /= 2;
+
+      if (!isDeleting && text === currentWord) {
+        typingSpeed = wait;
+        isDeleting = true;
+      } else if (isDeleting && text === "") {
+        isDeleting = false;
+        currentWordIndex = (currentWordIndex + 1) % words.length;
+      }
+
+      setTimeout(type, typingSpeed);
+    }
+
+    type();
+
+    // Particles
+    const particlesContainer = document.querySelector('.particles');
+    const particleCount = 100;
+    const particles = [];
+
+    for (let i = 0; i < particleCount; i++) {
+      const particle = document.createElement('div');
+      particle.classList.add('particle');
+
+      const x = Math.random() * window.innerWidth;
+      const y = Math.random() * window.innerHeight;
+
+      particle.style.left = `${x}px`;
+      particle.style.top = `${y}px`;
+
+      const endX = (Math.random() - 0.5) * 1000;
+      const endY = (Math.random() - 0.5) * 1000;
+
+      particle.style.setProperty('--x', `${endX}px`);
+      particle.style.setProperty('--y', `${endY}px`);
+
+      particlesContainer.appendChild(particle);
+
+      particles.push({
+        el: particle,
+        x: x,
+        y: y,
+        vx: (Math.random() - 0.5) * 0.2,
+        vy: (Math.random() - 0.5) * 0.2,
+      });
+    }
+
+    function animateParticles() {
+      particles.forEach(p => {
+        p.vx += (Math.random() - 0.5) * 0.005;
+        p.vy += (Math.random() - 0.5) * 0.005;
+        p.vx *= 0.99;
+        p.vy *= 0.99;
+        p.x += p.vx;
+        p.y += p.vy;
+        p.el.style.left = `${p.x}px`;
+        p.el.style.top = `${p.y}px`;
+      });
+      requestAnimationFrame(animateParticles);
+    }
+
+    animateParticles();
+
+    // Mouse trail effect
+    document.addEventListener("mousemove", e => {
+      const trail = document.createElement("div");
+      trail.classList.add("trail");
+      trail.style.left = `${e.pageX}px`;
+      trail.style.top = `${e.pageY}px`;
+      document.body.appendChild(trail);
+      setTimeout(() => trail.remove(), 700);
+    });
+  </script>
+
+
+
+</body></html>
